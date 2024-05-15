@@ -151,13 +151,26 @@ img {
         padding-right: 0;
     }
 
-    .lessons .col {
-        width: 90%;
-    }
-
     h1 {
         font-size: 2.7rem;
     }
 
+    /* Lession section */
+    .lessons .col {
+        width: 90%;
+    }
+
+    /* Steps section */
+    .steps .col {
+        width: 90%;
+    }
+
+    .card{
+        margin-bottom: 50px;
+    }
+
+    /* Why us section */
+    
+    
 }
 
