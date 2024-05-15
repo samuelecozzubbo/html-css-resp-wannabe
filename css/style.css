@@ -127,7 +127,15 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
-/* Tablet */
+/* Desktop */
+@media  screen and (min-width:781px) {
+    .container{
+        max-width: 100%;
+    }
+
+}
+
+ /* Tablet */
 @media  screen and (max-width:780px) {
     .container{
         max-width: 100%;
@@ -170,7 +178,8 @@ img {
     }
 
     /* Why us section */
-    
-    
+    .why-us .col-left,.why-us .col-right{
+        width: 90%;
+    }
 }
 
