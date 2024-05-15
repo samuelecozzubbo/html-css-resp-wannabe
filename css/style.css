@@ -141,6 +141,7 @@ img {
 @media  screen and (max-width:480px) {
     .container.black{
         background-color: rgb(29, 29, 29);
+        padding-top: 3em;
     }
 
     .row {
@@ -166,7 +167,7 @@ img {
     .steps{
         margin: 0;
     }
-    
+
     .steps .col {
         width: 90%;
     }
